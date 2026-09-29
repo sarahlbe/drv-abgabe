@@ -1,0 +1,19 @@
+[project]
+name = "drv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sarah Lueck", email = "lueck@mcc-berlin.net" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pypdf>=5.9.0",
+]
+
+[project.scripts]
+drv = "drv:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
