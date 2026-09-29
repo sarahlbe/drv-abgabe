@@ -4,7 +4,7 @@ from hashlib import sha256
 from pathlib import Path
 import re
 
-from pypdf import PdfReader
+from pypdf import PdfReader # type: ignore
 
 
 @dataclass(frozen=True)
